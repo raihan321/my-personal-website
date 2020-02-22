@@ -9,7 +9,7 @@
       url("./fonts/Roboto-Regular.woff2") format("woff2"); /* Modern Browsers */
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 *{
     margin: 0;
@@ -19,6 +19,9 @@
 }
 .header-section{
     background-image: url("img/header-bg.png");
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 90px;
 }
 .header-left{
     width: 42%;
@@ -67,14 +70,159 @@
     width: 85%;
     
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
+
+/* biography area start here */
+.biography{
+    background-image: url(img/biography-bg.png);
+    overflow: hidden;
+    background-size: cover;
+    padding-top: 108px;
+    padding-bottom: 100px;
+}
+.boi-left{
+    width: 45%;
+    float: left;
+}
+.boi-left img{
+    width: 70%;
+    margin-left: 142px;
+}
+
+.boi-right{ 
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+.boi-right h2{
+    color: #202428;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.boi-right p{
+    color: #828283;
+    width: 73%;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+.boi-right a{
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ec5195+0,ec4c7a+100 */
+background: rgb(236,81,149); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(236,81,149,1) 0%, rgba(236,76,122,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(236,81,149,1) 0%,rgba(236,76,122,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(236,81,149,1) 0%,rgba(236,76,122,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec5195', endColorstr='#ec4c7a',GradientType=1 ); /* IE6-9 */
+
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 28px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+
+
+/* latest work style start here */
+.latest-work{
+    background-image: url("img/latest-work-bg.png");
+    overflow: hidden;
+    background-size: cover;
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 100px;
+   
+}
+
+.latest-work h2{
+    color: #000;
+    text-transform: capitalize;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 65px;
+}
+
+.work-details{
+    margin-left: 80px;
+}
+.single-work{
+    width: 30%;
+    float: left;
+}
+.single-work img{
+    width: 70%;
+}
+/* footer-area start */
+
+.footer-section{
+    background-image: url(img/footer-bg.png);
+    overflow: hidden;
+    background-size: cover;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+  
+}
+.footer-section h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.footer-section h4{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer-section h5{
+    color: #878787;
+    font-size: 11px;
+    line-height: 15px;
+}
+.footer-section p{
+    padding-top: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    width: 20%;
+    margin: auto;
+}
+.contact{
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ec5195+0,ec4c7a+100 */
+background: rgb(236,81,149); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(236,81,149,1) 0%, rgba(236,76,122,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(236,81,149,1) 0%,rgba(236,76,122,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(236,81,149,1) 0%,rgba(236,76,122,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec5195', endColorstr='#ec4c7a',GradientType=1 ); /* IE6-9 */
+    width: 28%;
+    margin: 50px auto;
+    padding: 18px 50px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.contact h4{
+    font-weight: normal;
+    font-size: 11px;
+    margin-top: 5px;
+}
+.contact h2{
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: none;
+    margin-top: 9px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.reserved{
+    color : #707070;
+}
 .{}
 .{}
 .{}
